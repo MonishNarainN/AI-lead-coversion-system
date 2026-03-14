@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "ensemble_model",
+    "path": "D:\\ai-lead-conversion-system\\backend\\models\\ensemble_model.pkl",
+    "loaded_at": "2026-02-20T20:20:21.318507Z",
+    "total_inferences": 0,
+    "active": false
+  },
+  {
+    "id": 2,
+    "name": "ensemble_model",
+    "path": "D:\\ai-lead-conversion-system\\backend\\models\\ensemble_model.pkl",
+    "loaded_at": "2026-02-20T20:23:14.315159Z",
+    "total_inferences": 0,
+    "active": false
+  },
+  {
+    "id": 3,
+    "name": "ensemble_model",
+    "path": "D:\\ai-lead-conversion-system\\backend\\models\\ensemble_model.pkl",
+    "loaded_at": "2026-02-20T20:23:16.204851Z",
+    "total_inferences": 1,
+    "active": false
+  },
+  {
+    "id": 4,
+    "name": "ensemble_model",
+    "path": "D:\\ai-lead-conversion-system\\backend\\models\\ensemble_model.pkl",
+    "loaded_at": "2026-02-20T20:28:34.442685Z",
+    "total_inferences": 0,
+    "active": false
+  },
+  {
+    "id": 5,
+    "name": "ensemble_model",
+    "path": "D:\\ai-lead-conversion-system\\backend\\models\\ensemble_model.pkl",
+    "loaded_at": "2026-02-20T20:28:36.612430Z",
+    "total_inferences": 0,
+    "active": true
+  }
+]

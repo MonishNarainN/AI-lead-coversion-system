@@ -1,0 +1,16 @@
+flask
+flask-cors
+pandas
+numpy
+scikit-learn
+joblib
+pyyaml
+python-dotenv
+openpyxl
+lightgbm
+xgboost
+pyspark
+PyJWT
+shap
+werkzeug
+fpdf2

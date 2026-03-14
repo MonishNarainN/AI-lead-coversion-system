@@ -1,0 +1,86 @@
+{
+  "file1": [
+    {
+      "feature": "totalvisits",
+      "importance": 0.0
+    },
+    {
+      "feature": "timespentonwebsite",
+      "importance": 0.0
+    },
+    {
+      "feature": "pageviewspervisit",
+      "importance": 0.0
+    },
+    {
+      "feature": "asymmetricactivityscore",
+      "importance": 0.0
+    },
+    {
+      "feature": "asymmetricprofilescore",
+      "importance": 0.0
+    },
+    {
+      "feature": "leadsource",
+      "importance": 0.0
+    },
+    {
+      "feature": "lastactivity",
+      "importance": 0.0
+    },
+    {
+      "feature": "country",
+      "importance": 0.0
+    },
+    {
+      "feature": "specialization",
+      "importance": 0.0
+    },
+    {
+      "feature": "whatisyourcurrentoccupation",
+      "importance": 0.0
+    }
+  ],
+  "file2": [
+    {
+      "feature": "tags",
+      "importance": 0.2512
+    },
+    {
+      "feature": "timespentonwebsite",
+      "importance": 0.154
+    },
+    {
+      "feature": "city",
+      "importance": 0.0712
+    },
+    {
+      "feature": "leadquality",
+      "importance": 0.0572
+    },
+    {
+      "feature": "lastactivity",
+      "importance": 0.04
+    },
+    {
+      "feature": "leadsource",
+      "importance": 0.0316
+    },
+    {
+      "feature": "totalvisits",
+      "importance": 0.0264
+    },
+    {
+      "feature": "specialization",
+      "importance": 0.0192
+    },
+    {
+      "feature": "whatisyourcurrentoccupation",
+      "importance": 0.0172
+    },
+    {
+      "feature": "country",
+      "importance": 0.002
+    }
+  ]
+}

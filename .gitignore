@@ -1,0 +1,31 @@
+# Environments
+.env
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node
+node_modules/
+package-lock.json
+
+# Build and Temp
+build/
+dist/
+*.log
+.DS_Store
+
+# Uploads and Data
+data/
+uploads/
+frontend/vite_output.log
+backend/uploads/
+backend/logs/
+backend/diag_report.pdf
+
+# IDEs
+.vscode/
+.idea/

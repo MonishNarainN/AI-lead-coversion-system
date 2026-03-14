@@ -1,0 +1,50 @@
+Loading dataset...
+Original shape: (33041, 93)
+Running column alignment...
+  Mapping: numwebvisitsmonth -> totalvisits
+  Mapping: dataset_source -> leadsource
+  Mapping: timestamp -> timespentonwebsite
+  Mapping: country -> country
+  Mapping: referralsource -> howdidyouhearaboutus
+  Mapping: lead_number -> digitaladvertisement
+  Mapping: page_views_per_visit -> pageviewspervisit
+  Mapping: last_activity -> lastactivity
+  Mapping: specialization -> specialization
+  Mapping: what_is_your_current_occupation -> whatisyourcurrentoccupation
+  Mapping: newspaper_article -> newspaperarticle
+  Mapping: x_education_forums -> xeducationforums
+  Mapping: newspaper -> newspaper
+  Mapping: through_recommendations -> throughrecommendations
+  Mapping: receive_more_updates_about_our_courses -> receivemoreupdatesaboutourcourses
+  Mapping: tags -> tags
+  Mapping: lead_quality -> leadquality
+  Mapping: update_me_on_supply_chain_content -> updatemeonsupplychaincontent
+  Mapping: get_updates_on_dm_content -> getupdatesondmcontent
+  Mapping: lead_profile -> leadprofile
+  Mapping: city -> city
+  Mapping: asymmetrique_activity_index -> asymmetricactivityindex
+  Mapping: asymmetrique_profile_index -> asymmetricprofileindex
+  Mapping: asymmetrique_activity_score -> asymmetricactivityscore
+  Mapping: asymmetrique_profile_score -> asymmetricprofilescore
+  Mapping: i_agree_to_pay_the_amount_through_cheque -> iagreetopaytheamountthroughcheque
+  Mapping: a_free_copy_of_mastering_the_interview -> freecopyofmasteringpython
+  Mapping: last_notable_activity -> lastnotableactivity
+Aligned columns: ['id', 'year_birth', 'education', 'marital_status', 'income', 'kidhome', 'teenhome', 'dt_customer', 'recency', 'mntwines', 'mntfruits', 'mntmeatproducts', 'mntfishproducts', 'mntsweetproducts', 'mntgoldprods', 'numdealspurchases', 'numwebpurchases', 'numcatalogpurchases', 'numstorepurchases', 'totalvisits']...
+Identifying problematic numeric columns...
+Checking column: totalvisits
+  Type: <class 'pandas.DataFrame'>
+  ALERT: Column 'totalvisits' is a DataFrame! Columns: ['totalvisits', 'totalvisits']
+  Result: FAILURE - arg must be a list, tuple, 1-d array, or Series
+Checking column: timespentonwebsite
+  Type: <class 'pandas.Series'>
+  Result: Success
+Checking column: pageviewspervisit
+  Type: <class 'pandas.Series'>
+  Result: Success
+Checking column: asymmetricactivityscore
+  Type: <class 'pandas.Series'>
+  Result: Success
+Checking column: asymmetricprofilescore
+  Type: <class 'pandas.Series'>
+  Result: Success
+Debug run finished.

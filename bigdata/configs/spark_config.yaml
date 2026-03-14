@@ -1,0 +1,10 @@
+spark_config:
+  master: "local[*]"
+  app_name: "LeadConversionSystem"
+  executor_memory: "2g"
+  driver_memory: "2g"
+  log_level: "INFO"
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  checkpoints: "bigdata/logs/checkpoints/"
